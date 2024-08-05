@@ -1,5 +1,5 @@
  
-# MetaToken
+# TO WORK ON THE READMEMetaToken
 This is a simple decentralized application (DApp) where users get token minted to them, they can check their balance and also withdraw their token.
 
 ## Description
