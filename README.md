@@ -9,6 +9,7 @@ This program is a Dapp created using a javascript framework for connecting to th
 # Getting Started
 
 ## Installing
+
 - Clone the project from [Claims](https://github.com/rilwan12oye/Abalanche-DApp) by typing ```git clone https://github.com/rilwan12oye/Abalanche-DApp.git``` in your terminal.
 - After cloning the project, ```cd``` into the project and type ```npm i``` to install all dependencies for the project
 - Deploy your contract on your preferred chain, preferably on Avalance. Set up your hardhat.config file to be able to deploy on your preferred network. run ```npx hardhat run scripts/deploy.js --network <YOUR_NETWORK>``` to deploy
@@ -19,8 +20,9 @@ This program is a Dapp created using a javascript framework for connecting to th
 - When the contract address is added, run ```npm run dev``` to start your frontend
 - Once the frontend is up, interact with the contract.
 
-Authors
+## Authors
+
 Rilwan Oyewole
 
-License
+## License
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
