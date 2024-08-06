@@ -13,7 +13,7 @@ export default function HomePage() {
   const [balance, setBalance] = useState("");
   const [isUserViewed, setIsUserViewed] = useState(false);
 
-  const contractAddress = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+  const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
   const atmABI = atm_abi.abi;
 
   const getWallet = async () => {
@@ -64,6 +64,7 @@ export default function HomePage() {
         setBalance(bal);
       } catch (error) {
         alert(`Error: ${error}`);
+        setBalance(0);
       }
     }
   };
@@ -111,7 +112,7 @@ export default function HomePage() {
 
   const initUser = () => {
     const buttonStyle = {
-      backgroundColor: "#00796b", 
+      backgroundColor: "#00796b",
       color: "white",
       padding: "15px 35px",
       textAlign: "center",
@@ -140,22 +141,28 @@ export default function HomePage() {
         <div className="left-pane">
           <div className="admin">Admin</div>
           <form className="form" onSubmit={handleAddBeneficiary}>
+            <label htmlFor="address">Address</label>
             <input
               type="text"
+              id="address"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               placeholder="0x...."
               className="input"
             />
+            <label htmlFor="amount">Amount</label>
             <input
               type="number"
+              id="amount"
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
               placeholder="above 0"
               className="input"
             />
+            <label htmlFor="time">Time</label>
             <input
               type="number"
+              id="time"
               value={time}
               onChange={(e) => setTime(e.target.value)}
               placeholder="above 0"
