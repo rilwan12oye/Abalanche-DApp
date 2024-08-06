@@ -9,7 +9,7 @@ This program is a Dapp created using a javascript framework for connecting to th
 # Getting Started
 
 ## Installing
-- Clone the project from [Claims](). After cloning the project, ```cd``` into the project and type ```npm i``` to install all dependencies for the project
+- Clone the project from [Claims](https://github.com/rilwan12oye/Abalanche-DApp). After cloning the project, ```cd``` into the project and type ```npm i``` to install all dependencies for the project
 - 
 How/where to download your program
 Any modifications needed to be made to files/folders
